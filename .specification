@@ -1,0 +1,102 @@
+--- !ruby/object:Gem::Specification 
+name: gdata
+version: !ruby/object:Gem::Version 
+  version: 1.1.1
+platform: ruby
+authors: 
+- Jeff Fisher
+autorequire: 
+bindir: bin
+cert_chain: []
+
+date: 2009-11-09 00:00:00 -08:00
+default_executable: 
+dependencies: []
+
+description: |
+  This gem provides a set of wrappers designed to make it easy to work with 
+  the Google Data APIs.
+
+email: jfisher@youtube.com
+executables: []
+
+extensions: []
+
+extra_rdoc_files: 
+- README
+- LICENSE
+files: 
+- LICENSE
+- Rakefile
+- README
+- lib/gdata/auth/authsub.rb
+- lib/gdata/auth/clientlogin.rb
+- lib/gdata/auth.rb
+- lib/gdata/client/apps.rb
+- lib/gdata/client/base.rb
+- lib/gdata/client/blogger.rb
+- lib/gdata/client/booksearch.rb
+- lib/gdata/client/calendar.rb
+- lib/gdata/client/contacts.rb
+- lib/gdata/client/doclist.rb
+- lib/gdata/client/finance.rb
+- lib/gdata/client/gbase.rb
+- lib/gdata/client/gmail.rb
+- lib/gdata/client/health.rb
+- lib/gdata/client/notebook.rb
+- lib/gdata/client/photos.rb
+- lib/gdata/client/spreadsheets.rb
+- lib/gdata/client/webmaster_tools.rb
+- lib/gdata/client/youtube.rb
+- lib/gdata/client.rb
+- lib/gdata/http/default_service.rb
+- lib/gdata/http/mime_body.rb
+- lib/gdata/http/request.rb
+- lib/gdata/http/response.rb
+- lib/gdata/http.rb
+- lib/gdata.rb
+- test/tc_gdata_auth_authsub.rb
+- test/tc_gdata_auth_clientlogin.rb
+- test/tc_gdata_client_base.rb
+- test/tc_gdata_client_calendar.rb
+- test/tc_gdata_client_photos.rb
+- test/tc_gdata_client_youtube.rb
+- test/tc_gdata_http_mime_body.rb
+- test/tc_gdata_http_request.rb
+- test/test_helper.rb
+- test/testimage.jpg
+- test/ts_gdata.rb
+- test/ts_gdata_auth.rb
+- test/ts_gdata_client.rb
+- test/ts_gdata_http.rb
+has_rdoc: true
+homepage: http://code.google.com/p/gdata-ruby-util
+licenses: []
+
+post_install_message: 
+rdoc_options: 
+- --main
+- README
+require_paths: 
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      version: "0"
+  version: 
+required_rubygems_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      version: "0"
+  version: 
+requirements: 
+- none
+rubyforge_project: gdata
+rubygems_version: 1.3.5
+signing_key: 
+specification_version: 3
+summary: Google Data APIs Ruby Utility Library
+test_files: 
+- test/ts_gdata.rb
