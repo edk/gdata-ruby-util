@@ -2,6 +2,11 @@
 
 * http://code.google.com/p/gdata
 
+== Update
+The original code found on http://code.google.com/p/gdata was version 1.1.1 and I
+forked it in order to remove use of REXML and use Nokogiri instead since REXML
+was having some issues with namespaces.
+
 == DESCRIPTION:
 
 Ruby wrapper for working with Google Data APIs
